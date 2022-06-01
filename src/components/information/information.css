@@ -1,0 +1,40 @@
+.contain{
+    display: flex;
+    overflow: hidden;
+    background-color:  rgb(2, 71, 2);
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.smallContain{
+   margin-left: -150px;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   position: sticky;
+   position: -webkit-sticky;
+}
+.smalltext{
+    margin: 15px;
+}
+.is-sticky {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: rgb(2, 71, 2);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

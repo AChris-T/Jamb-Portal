@@ -1,0 +1,24 @@
+.container{
+   padding: 20px 50px;
+   overflow: hidden;
+}
+.imgContainer{
+   margin-top: -10px;
+   
+}
+
+
+@media screen and (max-width:991px){
+   .container{
+
+   }
+   .imgContainer{
+      width: 900px;
+      margin-left: -30px;
+   }
+}
+@media screen and (max-width:480px){
+   .container{
+      
+   }
+}

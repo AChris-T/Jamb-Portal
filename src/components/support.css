@@ -1,0 +1,139 @@
+.support{
+    position: relative;
+    background-color: rgba(186, 182, 174, 0.245);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+.surmon{
+    margin-left: 70px;
+    background-color: #fff;
+    margin-right: 60px;    
+}
+.theme{
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #006633;
+    font-family: "Open-san"sans-serif;
+    border-bottom: 0.5px solid rgba(186, 182, 174, 0.245);
+}
+.newIcon{
+    padding-right: 5px;
+}
+.infont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.infor{
+    align-items: center;
+    justify-content: center;
+    border:  0.5px solid rgba(186, 182, 174, 0.245);;
+    width: 21%;
+    padding-top: 40px;
+    text-align: center;
+    margin: 20px;
+}
+.Btn{
+    display: flex;
+    width: 150px;
+    height: 200px;
+    margin-left: 35px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.Btn:hover{
+    transform: scale(1.1);
+}
+.fluid{
+    display: flex;
+    border-radius: 50%;
+    width: 100%;
+}
+.impo{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.smallTxt{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+}
+.smallTxt:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+.over{
+    opacity: 0;
+    position: absolute;
+    background:rgb(0, 0, 0.2,0.2);
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+.over:hover{
+    opacity: 1;
+    
+}
+.iconic{
+    z-index: 999;
+    margin-top: 90px;
+    margin-left:10px;
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+.smallTxT{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+}
+.smallTxTt{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+

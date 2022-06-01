@@ -1,0 +1,41 @@
+.dropdown-men{
+    left: 330px;
+    width: 160px;
+    position: absolute;
+    top: 155px;
+    list-style: none;
+    text-align: start;
+    color: #fff;
+    z-index: 1;
+  }
+  .dropdown-men li{
+      background: rgb(2, 71, 2);
+      cursor: pointer;
+      text-decoration: none;
+      list-style: none;
+      font-size: 17px;
+  }
+ .dropdown-men li:hover{
+      background:#26c281;
+  }
+  .dropdown-menu.clicked{
+      display: none;     
+  }
+  .dropdown-link{
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.659);
+      font-size: 12px;
+      padding: -10px;
+  }
+ .icon{
+     position: relative;
+     align-items: center;
+     justify-content: center;
+     width:20px;
+     height: 20px;
+     left: 80px;
+     top: 8px;
+ }
